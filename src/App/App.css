@@ -1,0 +1,178 @@
+body {
+  font-size: 15px;
+}
+.app {
+  min-height: 100vh;
+  background: burlywood;
+  padding-top: 1em;
+}
+.wrapper {
+  border-radius: 30px;
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 1em 2em 2em 2em;
+}
+a,
+button {
+  transition: .4s;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  color: maroon;
+  text-transform: uppercase;
+}
+h1:before {
+  content: '\2118';
+  display: block;
+  text-align: center;
+  opacity: .2;
+  line-height: 1.5em;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: .7em;
+  padding-bottom: .7em;
+  position: relative;
+}
+.item:last-child {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.item .done-btn,
+.item h3,
+.item .quantity,
+.item .quantity p,
+.item .quantity button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.item .done-btn {
+  background: none;
+  border: 2px solid grey;
+  font-size: 0;
+  width: 17px;
+  height: 17px;
+  margin-right: 6px;
+  outline: none;
+  border-radius: 3px;
+  position: relative;
+}
+.item .quantity {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.item .quantity p {
+  margin: 0 .3em;
+  min-width: 19px;
+  text-align: center;
+}
+.item .quantity button {
+  width: 1.5em;
+  background: whitesmoke;
+  border: none;
+  font-weight: bold;
+  padding: .2em 0;
+  outline: none;
+}
+.item .quantity button:hover {
+  background: lightgray;
+}
+.item .quantity .trash {
+  display: inline-block;
+}
+.item .quantity .trash button {
+  width: auto;
+  background: none;
+  border: none;
+  color: #f00;
+  margin-left: 1.8em;
+  font-size: .65em;
+}
+.item .quantity .trash button:hover {
+  color: maroon;
+}
+
+.done .done-btn:before {
+  content: "\2713";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  font-size: 21px;
+  color: grey;
+}
+.done h3 {
+  text-decoration: line-through;
+  color: #777;
+}
+.done .quantity {
+  opacity: .2;
+}
+.done .quantity button {
+  pointer-events: none;
+}
+.done .quantity .trash button {
+  pointer-events: inherit;
+}
+
+.add-item {
+  text-align: center;
+  margin-top: 2.5em;
+}
+.add-item input {
+  border: 1px solid lightgrey;
+  padding: .6em;
+  margin-right: .5em;
+  border-radius: 30px;
+  outline: none;
+}
+.add-item button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: maroon;
+}
+.add-item button:hover {
+  color: black;
+}
+
+.modal-content p {
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+.modal-content button {
+  margin: 0 .5em;
+  background: maroon;
+  border: 2px solid transparent;
+  color: white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+.modal-content button.ghost {
+  border: 2px solid maroon;
+  background: transparent;
+  color: maroon;
+}
+
+.json-dl-btn {
+  text-align: center;
+  font-size: .75em;
+  color: burlywood;
+  display: block;
+  margin-top: 1em;
+  position: relative;
+  text-decoration: none;
+}
+.json-dl-btn:hover {
+  color: maroon;
+}
