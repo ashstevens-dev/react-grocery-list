@@ -18,7 +18,7 @@ OR
 Replace everything in the ``src`` directory inside ``my-app`` with the files in the ``src`` directory in this repository.
 
 ## Install the dependencies
-This app has two dependencies needed to function: react-modal and uuid.
+This app has two dependencies needed to function: react-modal and uuid. React-Modal is needed for the removal confirmation modal attached to list items. UUID is needed for generating a unique ID for each item in the list.
 
 ``` npm install react-modal ```
 OR
