@@ -15,7 +15,7 @@ OR
 ``` yarn create react-app my-app ```
 
 ## Add the files from this repository
-Replace everything in the ``src`` directory inside ``my-app`` with the files in the ``src`` folder in this repository.
+Replace everything in the ``src`` directory inside ``my-app`` with the files in the ``src`` directory in this repository.
 
 ## Install the dependencies
 This app has two dependencies needed to function: react-modal and uuid.
