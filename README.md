@@ -30,4 +30,4 @@ OR
 ``` yarn start ```
 
 ## :sparkles: Learn more about create-react-app and where to go from here
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
