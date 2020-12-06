@@ -29,5 +29,5 @@ It will be at localhost:3000. The page will automatically reload if you make cha
 OR
 ``` yarn start ```
 
-## :sparkles: Learn more about create-react-app and where to go from here
+## :sparkles: Learn more about create-react-app & where to go from here
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
