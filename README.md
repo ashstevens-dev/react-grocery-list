@@ -1,5 +1,11 @@
 # react-grocery-list
-Simple React grocery list app. Features a filtered user input for adding items, a done state, quantity manipulation, a remove button with a confirmation modal, and JSON data download. Stores the data in LocalStorage.
+Simple React grocery list app. Features include:
+* Filtered user input for adding items (allows alphanumeric, ampersands, single quotes, hyphens, and spaces)
+* Done state for marking items off the list
+* Quantity manipulation
+* Remove button with an attached confirmation modal
+* Data stored in/saved to the browser's LocalStorage
+* JSON data download (for development purposes - in case a dev would want to take the data and use it elsewhere)
 
 ## Use create-react-app
 Make a directory for your project. CD into it using command line. Then install React using npm or yarn.
